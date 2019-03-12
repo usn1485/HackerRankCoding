@@ -10,4 +10,4 @@ for x in range(n):
     #print(contact_name)
     if contact_name in phonebook.keys():
         print('{}={}'.format (contact_name,phonebook[contact_name]))
-    else: print("Not found")
+    else: print("Contact Not found")
